@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "pl">
+    <head>
+        <meta charset = "UTF-8">
+        <title>MATHWEB</title>
+        <meta name="description" contennt="MATHWEB">
+        <meta name="keywords" content="MATHWEBJS">
+        <meta name="author" content="Krystian Kozłowski">
+        <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+        <link rel="stylesheet" href="arkusz.css">
+    </head>
+    <body>
+        <script>
+            var number = 16.78 ;
+            var number2 = 2 ;
+            var round = Math.round(number) ;//Zwraca zaokrąglenie liczby do najbliższej liczby całkowitej
+            var tan = Math.tan(number) ; //Zwraca tangens liczby podanej w radianach
+            var sqrt = Math.sqrt(number) ;//Zwraca pierwiastek kwadratowy z liczby
+            var sin = Math.sin(number2) ; //Zwraca sinus liczby podanej w radianach
+            var random = Math.random() ; //Zwraca wartość pseudolosową z przedziału od 0 do 1
+            var pow = Math.pow(number , number2) ; //Zwraca wartosc liczby1 podniesionej do potęgi liczby 2
+            var min = Math.min(number , number2) ; //Zwraca mniejszą z dwóch liczb
+            var max = Math.max(number , number2) ; //Zwraca większą z liczb
+            var log = Math.log(number) ; //Zwraca logarytm naturalny z liczby
+            var abs = Math.abs(number) ; //Zwraca wartość absolutną liczby
+            var acos = Math.acos(number) ; //Zwraca arcus cosinus liczby
+            var asin = Math.asin(number) ;//Zwraca arcus sinus liczby
+            var atan = Math.atan(number) ; //Zwraca arcus tangens liczby
+            var ceils = Math.ceil(number) ; //Zwraca najmniejsza liczbe calkowita mniejsza lub rowną podanej liczbie
+            var cos = Math.cos(number) ;//Zwraca cosinus liczby podanej w radianach
+            var exp = Math.exp(number) ;//Zwraca wartość E podniesionej do potęgi wyrażonej podanym argumentem
+            var floor = Math.floor(number) ; //Zwraca największą liczbę całkowitą większą lub równą podanej liczbie 
+        </script>
+        <script type="text/javascript">
+            document.write("Zaokraglenie liczby "+number+" to "+round+"<br/>") ;
+            document.write("Tangens liczby "+number+" to "+tan+"<br/>") ;
+            document.write("Pierwiastek kwadratowy liczby "+number+" to "+sqrt+"<br/>") ;
+            document.write("Wartosc pseudolosowa od 0 do 1 to "+random+"<br/>") ;
+            document.write("Wartosc liczby "+number+" podniesiona do potegi "+number2+" to "+pow+"<br/>") ;
+            document.write("Najmniejsza wartosc to "+min+"<br/>") ;
+            document.write("Najwieksza wartosc to "+max+"<br/>") ;
+            document.write("Logarytm naturalny z liczby "+number+" to "+log+"<br/>") ;
+            document.write("Wartosc bezwzgledna z liczby "+number+" to "+abs+"<br/>") ;
+            document.write("Arcus cosinus liczby "+number+" to "+acos+"<br/>") ;
+            document.write("Arcus sinus liczby "+number+" to "+asin+"<br/>") ;
+            document.write("Arcus tangens liczby "+number+" to "+atan+"<br/>") ;
+            document.write("Najmniejsza liczba calkowita mniejsza lub rowna od "+number+"to"+ceils+"<br/>") ;
+            document.write("Cosinus liczby "+number+" to "+cos+"<br/>") ;
+            document.write("Wartosc "+number+" podniesiona do potegi E to"+exp+"<br/>") ;
+            document.write("Najwieksza liczba calkowita wieksza lub rowna od "+number+" to "+floor) ;
+        </script>
+    </body>
+</html>
